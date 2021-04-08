@@ -1,0 +1,178 @@
+html{
+background-color: #222629;
+    margin: 0;
+    min-width: 100%;
+}
+
+body{
+    background-color: #222629;
+    color: #f2e9e4;
+    margin: 0 auto; 
+    min-width: 80%;
+}
+
+h1{
+    font-size: 3em;
+    color: #86c232;
+
+}
+
+p{
+    font-size: 1.5em;
+    color: #61892f;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    padding: 25px;
+}
+
+
+nav{
+    height: 10%;
+    /* font-size: 2em; */
+    /* text-align: center; */
+    padding-top: 20px;
+    
+}
+
+
+nav a{
+    /* padding: 30px ; */
+    text-decoration: none;
+}
+
+.svgnav{
+    /* height: 70px; */
+    height: 9%;
+    width: 9%;
+}
+
+
+.container{
+    box-sizing: border-box;
+    height: 910px;
+    text-align: center;
+
+}
+
+
+
+.intro{
+    /* box-sizing: border-box; */
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hello{
+    padding-right: 40%;
+}
+
+.surname{
+    padding-left: 30%;
+}
+
+.profilepic{
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+    box-shadow: 8px 2px 67px 10px rgba(134,194,50,0.32);
+
+}
+
+.foot{
+    display: inline-block;
+    /* box-sizing: border-box; */
+    padding-top: 80px;
+}
+
+.foot a{
+    margin: 3%;
+}
+
+.svg{
+    height: 5%;
+    width: 5%;
+    /* padding: 50px 30px; */
+}
+
+
+/* BIO CONTAINER ELEMENTS */
+
+aside{
+    width: 30%;
+    height: 80%;
+}
+
+.flex{
+    /* width: 25%; */
+    margin-top: 12%;
+}
+
+.flex img{
+    display: inline-block;
+    height: 18%;
+    width: 20%;
+    margin: 30px;
+}
+
+section{
+    width: 55%;
+    height: 30%;
+    /* background-color: antiquewhite; */
+    display: inline-block;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+}
+
+
+
+#line{
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #86c232;
+    display: none;
+}
+
+@media only screen and (max-width: 540px) {
+
+    aside{
+        width: 40%;
+        height: 80%;
+    }
+
+}
+@media only screen and (max-width: 411px) {
+
+    aside{
+        width: 80%;
+        /* height: 80%; */
+        margin: 0 auto;
+    }
+
+
+section{
+    width: 70%;
+    /* height: 30%; */
+    /* background-color: antiquewhite; */
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 0;
+    margin: 0 auto;
+    /* left: 100px; */
+}
+
+#line{
+    display: block;
+}
+
+
+
+}
+
+
+/* SKILL CONTAINER ELEMENTS */
+
